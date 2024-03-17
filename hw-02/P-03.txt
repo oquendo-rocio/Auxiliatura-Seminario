@@ -1,0 +1,20 @@
+CARACTERISTICAS IMPRTANTES DE JAVASCRIPT
+1. Tipado estático: Permite especificar tipos de datos para detectar errores de tipo durante la fase de desarrollo.
+2. Inferencia de tipos: Deduce automáticamente el tipo de una variable según su valor inicial.
+3. Tipos avanzados: Soporta uniones, intersecciones, tipos literales, tipos condicionales, entre otros.
+4. Interfaces y tipos personalizados: Permite definir estructuras y tipos de datos específicos.
+5. Decoradores: Utilizados para agregar metadatos o modificar el comportamiento de elementos del código.
+6. Compatibilidad con ECMAScript: Sigue las especificaciones de ECMAScript, siendo compatible con muchas características modernas de JavaScript.
+7. Mejoras en herramientas de desarrollo: Ofrece herramientas avanzadas como autocompletado de código, detección de errores en tiempo real y refactorización segura.
+8. Compilación a JavaScript: Se compila a JavaScript estándar para ejecutarse en diversos entornos como navegadores web, Node.js y frameworks frontend como Angular, React, Vue.js, etc.
+
+DIFERENCIA ENTRE JAVASCRIPT Y TYPESCRIPT
+JavaScript:
+- Es un lenguaje de programación interpretado que se ejecuta en el navegador o en entornos de servidor como Node.js.
+- No tiene un sistema de tipado estático, lo que significa que las variables pueden contener cualquier tipo de dato y los errores de tipo se detectan en tiempo de ejecución.
+- Es dinámico en cuanto a tipos, lo que permite una mayor flexibilidad pero puede conducir a errores difíciles de depurar en grandes proyectos.
+TypeScript:
+- Es un superset de JavaScript desarrollado por Microsoft que agrega características de tipado estático opcional.
+- Permite especificar tipos de datos para variables, parámetros de funciones y valores de retorno, lo que ayuda a detectar errores de tipo durante la fase de desarrollo en lugar de en tiempo de ejecución.
+- Utiliza un sistema de inferencia de tipos que puede deducir automáticamente el tipo de una variable según su valor inicial, reduciendo la necesidad de especificar tipos explícitamente en muchas situaciones.
+- Proporciona herramientas avanzadas de desarrollo y refactorización, como autocompletado de código, detección de errores en tiempo real y navegación mejorada dentro del código.

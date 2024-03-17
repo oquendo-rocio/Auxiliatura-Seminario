@@ -1,0 +1,41 @@
+CARACTERISTICAS IMPORTANTES DE TEMPLATE STRINGS
+1. Interpolación de variables: Los template strings permiten insertar valores de variables dentro de la cadena utilizando la sintaxis ${}. 
+Esto hace que sea más fácil y legible combinar texto estático con variables dinámicas.
+
+2. Multilínea sin caracteres de escape: Los template strings admiten la creación de cadenas de texto multilínea sin necesidad de utilizar
+ caracteres de escape como \n. Esto mejora la legibilidad del código al escribir cadenas largas o estructuradas.
+
+3. Inclusión de expresiones JavaScript: Además de variables, los template strings también pueden contener expresiones JavaScript dentro de ${}. 
+Esto permite realizar cálculos, llamar a funciones y realizar otras operaciones dentro de la cadena de texto.
+
+4. Uso de comillas invertidas: Los template strings se crean utilizando comillas invertidas (` `) en lugar de comillas simples (' ') o dobles (" "). 
+Esto proporciona una sintaxis más flexible y conveniente para crear y manipular cadenas de texto.
+
+5. Preservación de espacios en blanco: Los template strings respetan los espacios en blanco y las sangrías dentro de la cadena, lo que facilita la 
+escritura y mantenimiento de cadenas con formato complejo.
+
+DIFERENCIA DE LAS COMILLAS SIMPLES Y DOBLES
+1. Comillas Simples (' '):
+Las comillas simples se utilizan para crear cadenas de texto en JavaScript. 
+No admiten la interpolación de variables ni la creación de cadenas multilínea sin caracteres de escape.
+EJEMPLO:
+const nombre = 'Juan';
+const mensaje = 'Hola, mi nombre es ' + nombre + ' y tengo 30 años.';
+console.log(mensaje);
+
+2. Comillas Dobles (" "):
+Las comillas dobles también se utilizan para crear cadenas de texto en JavaScript. 
+Al igual que las comillas simples, no admiten la interpolación de variables ni la creación de cadenas multilínea sin caracteres de escape.
+EJEMPLO:
+const nombre = "Juan";
+const mensaje = "Hola, mi nombre es " + nombre + " y tengo 30 años.";
+console.log(mensaje);
+
+3. Template Strings (` `):
+Los template strings permiten la interpolación de variables y la creación de cadenas multilínea sin caracteres de escape, lo cual los hace más flexibles y legibles.
+EJEMPLO:
+const nombre = "Juan";
+const edad = 30;
+const mensaje = `Hola, mi nombre es ${nombre} y tengo ${edad} años.`;
+console.log(mensaje);
+En este ejemplo, ${nombre} y ${edad} se sustituirán por los valores de las variables nombre y edad, respectivamente, al crear la cadena mensaje.
