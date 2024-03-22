@@ -1,0 +1,44 @@
+1.  .gitignore:
+Es un archivo utilizado en Git para especificar qué archivos y directorios deben ignorarse y no ser rastreados por Git.
+Ejemplo:
+        # Archivos generados automáticamente
+        /node_modules
+        /dist
+        /.vscode
+
+        # Archivos temporales
+        *.log
+        *.tmp
+
+        # Archivos sensibles (por ejemplo, credenciales)
+        .env
+
+2.  package.json
+Describe el proyecto, sus dependencias, scripts de construcción, versión, autor y otra información relevante.
+Ejemplo:
+        {
+            "name": "name-project" //nombre del proyecto
+            "version": "1.0.0", //version del proyecto
+            "description": "description", //proporciona una breve descripcion del proyecto
+            "main": "mindex.js", // especifica el archivo principal del proyecto
+            "scripts": {
+                "start": "node index.js"
+            }, // contiene comandos de scripts, como ser "start" para ejecutar la aplicacion
+            "dependencies": {
+                "express": "^4.17.1"
+            }, // lista de dpendencias del proeyecto
+            "devDependencies": {
+                "eslint": "^7.32.0"
+            } // enumera las dependencias dedesarrollo
+        }
+
+3.  main.js
+Es un archivo de código fuente JavaScript que sirve como punto de entrada principal para la aplicación en proyectos Node.js.
+Ejemplo:
+        const express = require('express'); // Importa la biblioteca Express
+        const app = express(); // Crea una instancia de la aplicación Express
+        app.get('/', (req, res) => // Define una ruta para la página principal ('/') que maneja solicitudes GET
+        {
+        res.send('¡Hola, mundo!');// Envía una respuesta al cliente con el mensaje '¡Hola, mundo!'
+        });
+        app.listen(3000, () => console.log('Servidor corriendo en http://localhost:3000')); // Inicia el servidor en el puerto 3000 y muestra un mensaje en la consola
