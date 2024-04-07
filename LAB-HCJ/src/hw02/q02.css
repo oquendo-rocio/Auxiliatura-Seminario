@@ -1,0 +1,95 @@
+.container-1 {
+  width: 500px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  grid-column: 1 / span 5
+}
+
+.container-2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 2;
+}
+
+.container-3 {
+  width: 100px;
+  height: 200px;
+  background-color: lightgreen;
+  color: white;
+  text-align: center;
+  grid-column: 3;
+  grid-row: 2 / span 2;
+}
+
+.container-4 {
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  grid-column: 4 / span 2;
+}
+
+.container-5 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.container-6 {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  grid-column: 5;
+  grid-row: 3;
+}
+
+.container-7 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.container-8 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  color: white;
+  text-align: center;
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.container-9 {
+  width: 300px;
+  height: 100px;
+  background-color: aquamarine;
+  color: white;
+  text-align: center;
+  grid-column: 3 / span 3;
+  grid-row: 4;
+}
+
+.parent {
+  display: grid;
+  width: 400px;
+  grid-template-columns:repeat(3, minmax(auto,100px)); 
+  grid-template-rows:repeat(auto-fill, 100px);
+  grid-auto-flow: row;
+}
