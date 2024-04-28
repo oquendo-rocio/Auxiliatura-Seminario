@@ -1,0 +1,28 @@
+.card-container {
+    width: 350px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(161, 247, 218);
+    opacity: 0.7;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-description {
+    margin-top: 5px;
+    font-style: oblique;
+  }
+  
+  .card-price {
+    color: green;
+    margin-top: 5px;
+    font-size: small;
+  }
+  
