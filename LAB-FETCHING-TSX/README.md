@@ -13,6 +13,7 @@ Currently, two official plugins are available:
 
 ##  FETCHING DE DATOS CON TSX
 Modificaciones en los codigos javascript de fetching dentro del proyecto que ahora llevaran extension tsx.
+
 **1. getData.ts:**
 Como se puede observar, se realizo modificaciones en el codigo, sin alterar la funcionalidad.
 <details>
